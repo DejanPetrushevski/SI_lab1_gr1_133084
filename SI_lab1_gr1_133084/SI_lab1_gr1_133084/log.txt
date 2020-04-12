@@ -1,0 +1,68 @@
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084
+$ mkdir SI_lab1_gr1_133084
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084
+$ git init
+Initialized empty Git repository in C:/Users/Deko/Desktop/SI_lab1_gr1_133084/.git/
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$ git commit -m "student class finished"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_lab1_gr1_133084/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$ git push SI_lab1_gr1_133084
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream SI_lab1_gr1_133084 master
+
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$ ^C
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$ ^M
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$  git push --set-upstream SI_lab1_gr1_133084 master
+error: src refspec master does not match any
+error: failed to push some refs to 'SI_lab1_gr1_133084'
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$ git branch courseFeature
+fatal: Not a valid object name: 'master'.
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Deko/Desktop/SI_lab1_gr1_133084/.git/
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$ git branch
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$ git branch courseFeature
+fatal: Not a valid object name: 'master'.
+
+Deko@DESKTOP-GDTFUML MINGW64 ~/Desktop/SI_lab1_gr1_133084 (master)
+$

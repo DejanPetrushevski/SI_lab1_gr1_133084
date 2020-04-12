@@ -1,0 +1,12 @@
+mkdir SI_lab1_gr1_133084
+git init
+git commit
+git push
+nano students.csv
+git commit -m “students.csv file added”
+git push
+git init
+git commit - m  “student class finished”
+git prach courseFeature
+git push
+
